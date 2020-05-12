@@ -766,7 +766,17 @@ h2{
 }
 
 @media (max-width:393px){
-	.card-footer{
+	.man_icon{
+		margin: 12px 24px 17px 12px;
+		width: 26px;
+	}
+	.women_icon{
+		margin: 12px 25px 17px 12px;
+		width: 31px;
+	}
+}
+@media (max-width:321px){
+.card-footer{
 		flex-direction: column;
 
 	}
@@ -779,6 +789,7 @@ h2{
 		width: 100%;
 		justify-content:center;
 		align-items:center;
+		margin-left: 0px;
 	}
 }
 

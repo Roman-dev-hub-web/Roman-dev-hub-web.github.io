@@ -11,81 +11,89 @@
 	
 </head>
 <body>
+	<!-- HEADER -->
 		<header>
 			<div class="container-fluid">
 				<div class="header_top">
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					  <a class="navbar-brand" href="#">STE<span style="color:red">.</span>AM</a>
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					 	<a class="navbar-brand" href="#">STE<span style="color:red">.</span>AM</a>
+					  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					    <span class="navbar-toggler-icon"></span>
-					  </button>
-					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					    <ul class="navbar-nav mr-auto">
-					     <li class="nav-item">
-					        <a class="nav-link" href="#">Home</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="#">Get Started</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="#">How it works</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="#">Pricing</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="#">Support</a>
-					      </li>	      
-					    </ul>
-					    <form class="form-inline my-2 my-lg-0">
-					       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login / Signup</button>
-					      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Get Listed Today</button>
-					    </form>
-					  </div>
+					  	</button>
+					  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							    <ul class="navbar-nav mr-auto" id="nav_top">
+							     <li class="nav-item">
+							        <a class="nav-link" href="#">Home</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="#">Get Started</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="#">How it works</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="#">Pricing</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="#">Support</a>
+							      </li>	      
+							    </ul>
+								    <form class="form-inline my-2 my-lg-0">
+								       <button class="btn btn-outline-success my-2 my-sm-0" id="login" type="submit">Login / Signup</button>
+								      <button class="btn btn-outline-success my-2 my-sm-0" id="get_listed" type="submit">Get Listed Today</button>
+								    </form>
+					  		</div>
 					</nav>
 				</div>
-				<div class="header_bottom">
-					<h1><span style="font-weight: 300;">Find the </span> 
-						<span style="font-weight: 900;">next event</span> 
-						<span style="font-weight: 300;">you'll want</span>
-						<span style="font-weight: 900;"> to attend</span> 
-					</h1>
-				</div>
+					<div class="header_bottom">
+						<h1><span style="font-weight: 300;">Find the </span> 
+							<span style="font-weight: 900;">next event</span> 
+							<span style="font-weight: 300;">you'll want</span>
+							<span style="font-weight: 900;"> to attend</span> 
+						</h1>
+					</div>
 			</div>
 		</header>
 		<!-- GOOGLE API -->
 			<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.433378724265!2d77.25687682835475!3d28.58677288419177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM1JzExLjkiTiA3N8KwMTUnMjMuNCJF!5e0!3m2!1sru!2sua!4v1588691554119!5m2!1sru!2sua" width="100%" height="475px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	
 			</div>
-		<!-- FORM -->
-		
+		<!-- FORM -->	
 		<div class="form">
-			<div class="container-fluid form-flex">
-				<ul class="nav nav-tabs" id="myTab" role="tablist">
-				  <li class="nav-item">
-				    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Hot Events</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Trending Events</a>
-				  </li>
-				</ul>
-				<form class="search">
-					  <div class="form-row">
-					    <div class="col">
-					      <input type="text" class="form-control" placeholder="Events">
-					    </div>
-					   	<div class="input-group mb-3">
-						  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-						  <div class="input-group-append">
-						    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-						  </div>
+			<div class="container-fluid ">
+				<div class="form-flex">	
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item" >
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Hot Events</a>
+						</li>
+						<li class="nav-item" >
+						    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Trending Events</a>
+						</li>
+					</ul>
+						<div class="form-row">
+							<div class="col">
+								<input type="search" class="form-control" placeholder="Events" id="form_1">
+							</div>
+								<div class="col">
+								    <input type="search" class="form-control" placeholder="Your location" id="form_2">
+								    <div class="bootom_search">
+								    	<div class="border_box">
+								    		<ul>
+								    			<li>
+								    				<a href="#"></a>
+								    			</li>
+								    		</ul>
+
+								    		
+								    	</div>
+								    </div>
+								</div>
 						</div>
-					  </div>
-				</form>
-				
-				<div class="kalendar">
-					<a href="#" class="kalendar2">
-						<img src="sprite/kalendar.png" alt="kalendar">
-					</a>
+							
+							<div class="kalendar">
+								<a href="#" class="kalendar2">
+									<img src="img/7.png" alt="kalendar">
+								</a>
+							</div>
 				</div>
 			</div>
 		</div>
@@ -95,10 +103,24 @@
 		<div class="content_fon">
 			<div class="container-fluid">
 				<div class="tab-content" id="myTabContent">
-				  	<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">				  					<div class="card-deck">
+				  	<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">				  					
+				  		<div class="card-deck">
 						  	<div class="card">
 							  	<div class="img_box">
-							    	<img src="img/1.png" class="card-img-top" alt="Act Big! Ultimate Music Festival">
+							  		<div class="img">
+							    		<img src="img/1.png" class="card-img-top" alt="Act Big! Ultimate Music Festival">
+							    	</div>
+							    	<div class="img_text_date">
+							  			<div class="icon_left">
+							  				<a href="#"></a>
+							  			</div>
+								  			<div class="img_text">
+								  				Aug 17, 2013  02:00pm - 08:00pm IST 
+								  			</div>
+									  			<div class="icon_right">
+									  				<a href="#"></a>
+									  			</div>
+							  		</div>
 							    </div>
 							    <div class="card-body">
 							     	<h2>Act Big! Ultimate Music Festival</h2>
@@ -106,14 +128,37 @@
 							     	<p class="span_text">Nikolaou G. Dimitriou Street , Larnaca, 6031, Cyprus</p>
 							      	<p class="p_text_2">An evening of bowling by geeks for geeks. Nothing more, nothing less (adorn bowling shirts — funny shoes provided) Follow @TeamLebowski or Geek&#8211;Bowling on Twitter for up to the minute news...</p>
 							    </div>
-							    <div class="card-footer">
-							      <div class="man_percent"></div>
-							      <div class="woman_percent"></div>
-							    </div>
+								    <div class="card-footer">
+								      	<div class="man_percent">
+								      		<div class="man_icon"></div>
+									      		<div class="statistic">	
+										      		<span>13</span> <span>%</span> <span >MALE</span>
+									      		</div>
+								      	</div>
+								      		<div class="woman_percent">
+									      		<div class="women_icon"></div>
+										      		<div class="statistic">	
+											      		<span>87</span> <span>%</span> <span >MALE</span>
+										      		</div>
+								      		</div>
+								    </div>
 						  	</div>
 							  	<div class="card">
 							  		<div class="img_box">
-								    	<img src="img/2.png" class="card-img-top" alt="Summer Art Club - Week 1/3">
+							  			<div class="img">
+								    		<img src="img/2.png" class="card-img-top" alt="Summer Art Club - Week 1/3">
+								    	</div>
+								    	<div class="img_text_date">
+								  			<div class="icon_left">
+								  				<a href="#"></a>
+								  			</div>
+									  			<div class="img_text">
+									  				Aug 17, 2013  02:00pm - 08:00pm IST 
+									  			</div>
+										  			<div class="icon_right">
+										  				<a href="#"></a>
+										  			</div>
+							  			</div>
 								    </div>
 									    <div class="card-body">
 									      	<h2>Summer Art Club - Week 1/3</h2>
@@ -122,13 +167,36 @@
 									      	<p class="p_text_2">Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...</p>
 									    </div>
 										    <div class="card-footer">
-							      				<div class="man_percent"></div>
-							      				<div class="woman_percent"></div>
+							      				<div class="man_percent">
+										      		<div class="man_icon"></div>
+											      		<div class="statistic">	
+												      		<span>25</span> <span>%</span> <span >MALE</span>
+											      		</div>
+										      	</div>
+										      		<div class="woman_percent">
+											      		<div class="women_icon"></div>
+												      		<div class="statistic">	
+													      		<span>75</span> <span>%</span> <span >MALE</span>
+												      		</div>
+										      		</div>
 							   				</div>
 							  	</div>
 								  	<div class="card">
 								  		<div class="img_box">
-									    	<img src="img/3.png" class="card-img-top" alt="Bocca Foodbar @ Vama Veche">
+								  			<div class="img">
+									    		<img src="img/3.png" class="card-img-top" alt="Bocca Foodbar @ Vama Veche">
+									    	</div>
+										    	<div class="img_text_date">
+										  			<div class="icon_left">
+										  				<a href="#"></a>
+										  			</div>
+											  			<div class="img_text">
+											  				Aug 17, 2013  02:00pm - 08:00pm IST 
+											  			</div>
+												  			<div class="icon_right">
+												  				<a href="#"></a>
+												  			</div>
+								  				</div>
 									    </div>
 										    <div class="card-body">
 										     	<h2>Bocca Foodbar @ Vama Veche</h2>
@@ -137,13 +205,36 @@
 											    <p class="p_text_2">ERLEBT 3 TAGE LANG STRANDFEELING & PAR&#8211;TYSPAß PUR! BEACH PARTY OPENING WIR ERÖFFNEN DIE PARTYSAISON! Seid Ihr bereit für die heißeste Beachparty des Jahres ... </p>
 										    </div>
 											    <div class="card-footer">
-											      	<div class="man_percent"></div>
-							      					<div class="woman_percent"></div>
+											      	<div class="man_percent">
+											      		<div class="man_icon"></div>
+												      		<div class="statistic">	
+													      		<span>62</span> <span>%</span> <span >MALE</span>
+												      		</div>
+											      	</div>
+											      		<div class="woman_percent">
+												      		<div class="women_icon"></div>
+													      		<div class="statistic">	
+														      		<span>38</span> <span>%</span> <span >MALE</span>
+													      		</div>
+											      		</div>
 											    </div>
 								  	</div>
 								  		<div class="card">
 											<div class="img_box">
-										    	<img src="img/4.png" class="card-img-top" alt="Faringdon Community Sports College - Summer - Week 2">
+												<div class="img">
+											    	<img src="img/4.png" class="card-img-top" alt="Faringdon Community Sports College - Summer - Week 2">
+											   	</div>
+										    		<div class="img_text_date">
+											  			<div class="icon_left">
+											  				<a href="#"></a>
+											  			</div>
+												  			<div class="img_text">
+												  				Aug 17, 2013  02:00pm - 08:00pm IST 
+												  			</div>
+													  			<div class="icon_right">
+												  					<a href="#"></a>
+												  				</div>
+							  						</div>
 										    </div>
 											    <div class="card-body">
 											      	<h2>Faringdon Community Sports College - Summer - Week 2</h2>
@@ -152,13 +243,36 @@
 													<p class="p_text_2">Practical Self-Service BI with PowerPivot for Excel SQL Server MVP and Business Intelligence Archi&#8211;tect Bill Pearson leads this full-day, hands-on introduction to using PowerPivot for...</p>
 											    </div>
 												    <div class="card-footer">
-												      	<div class="man_percent"></div>
-									      				<div class="woman_percent"></div>
+												      	<div class="man_percent">
+												      		<div class="man_icon"></div>
+													      		<div class="statistic">	
+														      		<span>55</span> <span>%</span> <span >MALE</span>
+													      		</div>
+												      	</div>
+												      		<div class="woman_percent">
+													      		<div class="women_icon"></div>
+														      		<div class="statistic">	
+															      		<span>45</span> <span>%</span> <span >MALE</span>
+														      		</div>
+												      		</div>
 												    </div>
 										</div>
 											<div class="card">
 												<div class="img_box">
-												    <img src="img/5.png" class="card-img-top" alt="Training EN - OpenERP 7.0 Functional Training">
+													<div class="img">
+												    	<img src="img/5.png" class="card-img-top" alt="Training EN - OpenERP 7.0 Functional Training">
+													</div>
+													    <div class="img_text_date">
+												  			<div class="icon_left">
+												  				<a href="#"></a>
+												  			</div>
+													  			<div class="img_text">
+													  				Aug 17, 2013  02:00pm - 08:00pm IST 
+													  			</div>
+														  			<div class="icon_right">
+													  				<a href="#"></a>
+													  				</div>
+								  						</div>
 												</div>
 												    <div class="card-body">
 												     	<h2>Training EN - OpenERP 7.0 Functional Training</h2>
@@ -167,13 +281,36 @@
 														<p class="p_text_2">THE BOILER ROOM is coming to BCN The Boiler Room, un nuevo concepto de fiesta que aterriza en Barcelona, una noche fresca y muy energética con una programación de Dj's de ...</p>
 												    </div>
 												    <div class="card-footer">
-												     	<div class="man_percent"></div>
-										      			<div class="woman_percent"></div>
+												     	<div class="man_percent">
+												      		<div class="man_icon"></div>
+													      		<div class="statistic">	
+														      		<span>31</span> <span>%</span> <span >MALE</span>
+													      		</div>
+												      	</div>
+												      		<div class="woman_percent">
+													      		<div class="women_icon"></div>
+														      		<div class="statistic">	
+															      		<span>69</span> <span>%</span> <span >MALE</span>
+														      		</div>
+												      		</div>
 												    </div>
 											</div>
 												<div class="card">
 													<div class="img_box">
-														<img src="img/6.png" class="card-img-top" alt="Band Workshop with Artists in Residence Super Tenants">
+														<div class="img">
+															<img src="img/6.png" class="card-img-top" alt="Band Workshop with Artists in Residence Super Tenants">
+														</div>
+														<div class="img_text_date">
+												  			<div class="icon_left">
+												  				<a href="#"></a>
+												  			</div>
+													  			<div class="img_text">
+													  				Aug 17, 2013  02:00pm - 08:00pm IST 
+													  			</div>
+														  			<div class="icon_right">
+													  				<a href="#"></a>
+													  				</div>
+								  						</div>
 													</div>
 														<div class="card-body">
 														   <h2>Band Workshop with Artists in Residence Super Tenants</h2>
@@ -182,93 +319,257 @@
 															<p class="p_text_2">Culture Club Revelin predstavio je novi ljetni pro&#8211;gram ''DREAMGIRLS IN REVELIN'' U bogatom cjelovečernjem programu moći ćete uživati u vrućim plesnim točkama zgodnih...</p>
 														</div>
 														    <div class="card-footer">
-														      	<div class="man_percent"></div>
-										      					<div class="woman_percent"></div>
+														      	<div class="man_percent">
+														      		<div class="man_icon"></div>
+															      		<div class="statistic">	
+																      		<span>57</span> <span>%</span> <span >MALE</span>
+															      		</div>
+														     	</div>
+														      		<div class="woman_percent">
+															      		<div class="women_icon"></div>
+																      		<div class="statistic">	
+																	      		<span>43</span> <span>%</span> <span >MALE</span>
+																      		</div>
+												      				</div>
 														    </div>
 												</div>
 						</div>
 					</div>
 					  	<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 					  		<div class="card-deck">
-								<div class="card">
-								  	<div class="img_box">
-								   		<img src="img/6.png" class="card-img-top" alt="...">
-								    </div>
-									    <div class="card-body">
-									      	<h5 class="p_text_1">Act Big! Ultimate Music Festival</h5>
-									      	<p class="p_text_2">An evening of bowling by geeks for geeks. Nothing more, nothing less (adorn bowling shirts — funny shoes provided) Follow @TeamLebowski or Geek&shyBowling on Twitter for up to the minute news...</p>
+								 	<div class="card">
+									  	<div class="img_box">
+									  		<div class="img">
+									    		<img src="img/3.png" class="card-img-top" alt="Act Big! Ultimate Music Festival">
+									    	</div>
+										    	<div class="img_text_date">
+										  			<div class="icon_left">
+										  				<a href="#"></a>
+										  			</div>
+											  			<div class="img_text">
+											  				Aug 17, 2013  02:00pm - 08:00pm IST 
+											  			</div>
+												  			<div class="icon_right">
+												  				<a href="#"></a>
+												  			</div>
+										  		</div>
 									    </div>
-										    <div class="card-footer">
-										      	<small class="text-muted">Last updated 3 mins ago</small>
-										    </div>
-								</div>
-									<div class="card">
-										<div class="img_box">
-											<img src="..." class="card-img-top" alt="...">
-										</div>
-										  	<div class="card-body">
-										     	<h5 class="card-title">Card title</h5>
-										      	<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-										    </div>
-											    <div class="card-footer">
-											      	<small class="text-muted">Last updated 3 mins ago</small>
-											    </div>
-									</div>
-									  	<div class="card">
-										  	<div class="img_box">
-										    	<img src="..." class="card-img-top" alt="...">
-										    </div>
-											    <div class="card-body">
-											      <h5 class="card-title">Card title</h5>
-											      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-											    </div>
-												    <div class="card-footer">
-												      <small class="text-muted">Last updated 3 mins ago</small>
-												    </div>
-									  	</div>
-							</div>
-								<div class="card-deck">
-									<div class="card">
-										<div class="img_box">
-									    	<img src="..." class="card-img-top" alt="...">
-										</div>
 										    <div class="card-body">
-										      <h5 class="card-title">Card title</h5>
-										      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+										     	<h2>Act Big! Ultimate Music Festival</h2>
+										     	<p class="p_text_1">Pattichion Municipal Amphitheater</p>
+										     	<p class="span_text">Nikolaou G. Dimitriou Street , Larnaca, 6031, Cyprus</p>
+										      	<p class="p_text_2">An evening of bowling by geeks for geeks. Nothing more, nothing less (adorn bowling shirts — funny shoes provided) Follow @TeamLebowski or Geek&#8211;Bowling on Twitter for up to the minute news...</p>
 										    </div>
-											    <div class="card-footer">
-											      <small class="text-muted">Last updated 3 mins ago</small>
-											    </div>
-									</div>
-										<div class="card">
-											<div class="img_box">
-										   		 <img src="..." class="card-img-top" alt="...">
-											</div>
+									    <div class="card-footer">
+									      	<div class="man_percent">
+									      		<div class="man_icon"></div>
+										      		<div class="statistic">	
+											      		<span>13</span> <span>%</span> <span >MALE</span>
+										      		</div>
+									      	</div>
+									      		<div class="woman_percent">
+										      		<div class="women_icon"></div>
+											      		<div class="statistic">	
+												      		<span>87</span> <span>%</span> <span >MALE</span>
+											      		</div>
+									      		</div>
+									    </div>
+						  			</div>
+									  	<div class="card">
+									  		<div class="img_box">
+									  			<div class="img">
+										    		<img src="img/5.png" class="card-img-top" alt="Summer Art Club - Week 1/3">
+										    	</div>
+										    	<div class="img_text_date">
+										  			<div class="icon_left">
+										  				<a href="#"></a>
+										  			</div>
+											  			<div class="img_text">
+											  				Aug 17, 2013  02:00pm - 08:00pm IST 
+											  			</div>
+													  		<div class="icon_right">
+													  			<a href="#"></a>
+													  		</div>
+									  			</div>
+										    </div>
 											    <div class="card-body">
-											      <h5 class="card-title">Card title</h5>
-											      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+											      	<h2>Summer Art Club - Week 1/3</h2>
+											     	<p class="p_text_1">Fun Factory Wildeshausen</p>
+											     	<p class="span_text">Am Umspannwerk 7, Wildeshausen, 27793, Germany</p>
+											      	<p class="p_text_2">Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...</p>
 											    </div>
 												    <div class="card-footer">
-												      	<small class="text-muted">Last updated 3 mins ago</small>
-												    </div>
-										</div>
-											<div class="card">
-												<div class="img_box">
-											    	<img src="..." class="card-img-top" alt="...">
+									      				<div class="man_percent">
+												      		<div class="man_icon"></div>
+													      		<div class="statistic">	
+														      		<span>25</span> <span>%</span> <span >MALE</span>
+													      		</div>
+												      	</div>
+												      		<div class="woman_percent">
+													      		<div class="women_icon"></div>
+														      		<div class="statistic">	
+															      		<span>75</span> <span>%</span> <span >MALE</span>
+														      		</div>
+												      		</div>
+									   				</div>
+									  	</div>
+										  	<div class="card">
+										  		<div class="img_box">
+										  			<div class="img">
+											    		<img src="img/1.png" class="card-img-top" alt="Bocca Foodbar @ Vama Veche">
+											    	</div>
+												    	<div class="img_text_date">
+												  			<div class="icon_left">
+												  				<a href="#"></a>
+												  			</div>
+													  			<div class="img_text">
+													  				Aug 17, 2013  02:00pm - 08:00pm IST 
+													  			</div>
+														  			<div class="icon_right">
+														  				<a href="#"></a>
+														  			</div>
+										  				</div>
 											    </div>
-											    	<div class="card-body">
-													    <h5 class="card-title">Card title</h5>
-													     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+												    <div class="card-body">
+												     	<h2>Bocca Foodbar @ Vama Veche</h2>
+													    <p class="p_text_1">Pattichion Municipal Amphitheater</p>
+													    <p class="span_text">Nikolaou G. Dimitriou Street , Larnaca, 6031, Cyprus</p>
+													    <p class="p_text_2">ERLEBT 3 TAGE LANG STRANDFEELING & PAR&#8211;TYSPAß PUR! BEACH PARTY OPENING WIR ERÖFFNEN DIE PARTYSAISON! Seid Ihr bereit für die heißeste Beachparty des Jahres ... </p>
 												    </div>
 													    <div class="card-footer">
-													      	<small class="text-muted">Last updated 3 mins ago</small>
+													      	<div class="man_percent">
+													      		<div class="man_icon"></div>
+														      		<div class="statistic">	
+															      		<span>62</span> <span>%</span> <span >MALE</span>
+														      		</div>
+													      	</div>
+													      		<div class="woman_percent">
+														      		<div class="women_icon"></div>
+															      		<div class="statistic">	
+																      		<span>38</span> <span>%</span> <span >MALE</span>
+															      		</div>
+													      		</div>
 													    </div>
-											</div>
-								</div> 
+										  	</div>
+										  		<div class="card">
+													<div class="img_box">
+														<div class="img">
+													    	<img src="img/4.png" class="card-img-top" alt="Faringdon Community Sports College - Summer - Week 2">
+													   	</div>
+												    		<div class="img_text_date">
+													  			<div class="icon_left">
+													  				<a href="#"></a>
+													  			</div>
+														  			<div class="img_text">
+														  				Aug 17, 2013  02:00pm - 08:00pm IST 
+														  			</div>
+															  			<div class="icon_right">
+														  				<a href="#"></a>
+														  				</div>
+									  						</div>
+												    </div>
+													    <div class="card-body">
+													      	<h2>Faringdon Community Sports College - Summer - Week 2</h2>
+															<p class="p_text_1">University of Netherlands Antilles</p>
+															<p class="span_text">Sta Maria Willeamstad, Curaçao, AN5999, Netherlands</p>
+															<p class="p_text_2">Practical Self-Service BI with PowerPivot for Excel SQL Server MVP and Business Intelligence Archi&#8211;tect Bill Pearson leads this full-day, hands-on introduction to using PowerPivot for...</p>
+													    </div>
+														    <div class="card-footer">
+														      	<div class="man_percent">
+														      		<div class="man_icon"></div>
+															      		<div class="statistic">	
+																      		<span>55</span> <span>%</span> <span >MALE</span>
+															      		</div>
+														      	</div>
+														      		<div class="woman_percent">
+															      		<div class="women_icon"></div>
+																      		<div class="statistic">	
+																	      		<span>45</span> <span>%</span> <span >MALE</span>
+																      		</div>
+														      		</div>
+														    </div>
+												</div>
+													<div class="card">
+														<div class="img_box">
+															<div class="img">
+														    	<img src="img/6.png" class="card-img-top" alt="Training EN - OpenERP 7.0 Functional Training">
+															</div>
+															    <div class="img_text_date">
+														  			<div class="icon_left">
+														  				<a href="#"></a>
+														  			</div>
+															  			<div class="img_text">
+															  				Aug 17, 2013  02:00pm - 08:00pm IST 
+															  			</div>
+																  			<div class="icon_right">
+															  				<a href="#"></a>
+															  				</div>
+										  						</div>
+														</div>
+														    <div class="card-body">
+														     	<h2>Training EN - OpenERP 7.0 Functional Training</h2>
+																<p class="p_text_1">Boulevard Barcelona</p>
+																<p class="span_text">La Rambla 27, Barcelona, 08002, Spain</p>
+																<p class="p_text_2">THE BOILER ROOM is coming to BCN The Boiler Room, un nuevo concepto de fiesta que aterriza en Barcelona, una noche fresca y muy energética con una programación de Dj's de ...</p>
+														    </div>
+															    <div class="card-footer">
+															     	<div class="man_percent">
+															      		<div class="man_icon"></div>
+																      		<div class="statistic">	
+																	      		<span>31</span> <span>%</span> <span >MALE</span>
+																      		</div>
+															      	</div>
+															      		<div class="woman_percent">
+																      		<div class="women_icon"></div>
+																	      		<div class="statistic">	
+																		      		<span>69</span> <span>%</span> <span >MALE</span>
+																	      		</div>
+															      		</div>
+															    </div>
+													</div>
+												<div class="card">
+													<div class="img_box">
+														<div class="img">
+															<img src="img/6.png" class="card-img-top" alt="Band Workshop with Artists in Residence Super Tenants">
+														</div>
+														<div class="img_text_date">
+												  			<div class="icon_left">
+												  				<a href="#"></a>
+												  			</div>
+													  			<div class="img_text">
+													  				Aug 17, 2013  02:00pm - 08:00pm IST 
+													  			</div>
+														  			<div class="icon_right">
+													  				<a href="#"></a>
+													  				</div>
+								  						</div>
+													</div>
+														<div class="card-body">
+														   <h2>Band Workshop with Artists in Residence Super Tenants</h2>
+															<p class="p_text_1">Culture Club Revelin</p>
+															<p class="span_text">Sv. Dominika 3, Dubrovnik, 20 000, Croatia</p>
+															<p class="p_text_2">Culture Club Revelin predstavio je novi ljetni pro&#8211;gram ''DREAMGIRLS IN REVELIN'' U bogatom cjelovečernjem programu moći ćete uživati u vrućim plesnim točkama zgodnih...</p>
+														</div>
+														    <div class="card-footer">
+														      	<div class="man_percent">
+														      		<div class="man_icon"></div>
+															      		<div class="statistic">	
+																      		<span>57</span> <span>%</span> <span >MALE</span>
+															      		</div>
+														     	</div>
+														      		<div class="woman_percent">
+															      		<div class="women_icon"></div>
+																      		<div class="statistic">	
+																	      		<span>43</span> <span>%</span> <span >MALE</span>
+																      		</div>
+												      				</div>
+														    </div>
+												</div>
+							</div> 
 					 	</div>
 				</div>
 					<div class="bottom_block">
-						<button type="button" class="btn btn-secondary">Load More</button>
+						<button class="bottom">Load More</button>
 					</div>
 			</div>
 		</div>
@@ -277,25 +578,76 @@
 		<div class="footer_fons">
 			<div class="container-fluid">
 				<div class="footer_navs">
-					<ul class="nav justify-content-center">
-					  <li class="nav-item">
-					    <a class="nav-link active" href="#">Active</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Link</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Link</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-					  </li>
-					</ul>
+					<nav class="navbar navbar-expand-lg navbar-light bg-light" id="footer_navs">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon"></span>
+						 </button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							    <ul class="navbar-nav mr-auto" id="footer_ul">
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link"  href="#">Home</a>
+								    </li>
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link"  href="#">About eco</a>
+								    </li>
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link"  href="#">How it works</a>
+								    </li>
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link" href="#">Industries</a>
+								    </li>
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link" href="#">Features</a>
+								    </li>
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link" href="#">Pricing</a>
+								    </li>	   
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link" href="#">Faq's</a>
+								    </li>	   
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link"  href="#">Privacy policy</a>
+								    </li>	   
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link" href="#">Blog</a>
+								    </li>	   
+								    <li class="nav-item nav-item-footer">
+								        <a class="nav-link" href="#">Terms of service</a>
+								    </li>	   	      
+							    </ul>
+							 
+							</div>
+					</nav>
 				</div>
-				<div class="footer_inform"></div>
-				<div class="social_networks"></div>	
+					<div class="footer_media">
+						<div class="footer_inform">© 2013 <span style="font-weight: 700;color:#ffffff; ">steam</span>. All Rights Reserved. Design by <span style="font-weight: 700;color:#ffffff;">woof</span>.</div>
+							<div class="social_networks">
+								<ul class="ul_footer">
+									<li>
+										<a href=""></a>
+									</li>
+									<li>
+										<a href=""></a>
+									</li>
+									<li>
+										<a href=""></a>
+									</li>
+									<li>
+										<a href=""></a>
+									</li>
+									<li>
+										<a href=""></a>
+									</li>
+									<li>
+										<a href=""></a>
+									</li>
+								</ul>
+							</div>	
+					</div>
 			</div>
+				
 		</div>
+		
 
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -470,7 +470,7 @@ input:focus{
 	}
 	.form-row{
 		margin:20px 0 20px 0;
-		flex-direction: column;
+		display: block;
 	}
 	.col:last-child{
 		margin-left: 0px;
